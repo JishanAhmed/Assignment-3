@@ -1,5 +1,6 @@
 import torch
 import pytest
+import regression
 from regression import fit_regression_model
 
 
