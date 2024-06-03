@@ -1,5 +1,7 @@
 import torch
 from torch import nn
+import regression
+from regression import fit_regression_model
 
 
 def create_linear_regression_model(input_size, output_size):
